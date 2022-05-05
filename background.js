@@ -15,7 +15,7 @@ async function handleCreated(info) {
         }
 
         try {
-            const resp =  await browser.runtime.sendNativeMessage("fwdl", info.url);
+            const resp =  await browser.runtime.sendNativeMessage("fwdl", info);
             console.log("Received " + resp);
         }catch(e) {
             console.log(`Error: ${e}`);

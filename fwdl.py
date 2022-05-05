@@ -17,7 +17,13 @@ msg = json.loads(msg)
 
 
 url = msg['url']
-fpath = msg['file']
+fpath = msg['filename']
+
+#do something with your file
+subprocess.run(['notify-send', '-t', '5000', 'Firefox Download requested', url])
+
+subprocess.run(['your_downloader', url, fpath ])
+
 
 with open(logfile,'a') as f:
     f.write(fpath+ "\n"+
