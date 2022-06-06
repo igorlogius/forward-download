@@ -1,4 +1,4 @@
 #!/bin/bash
-export AMO='https://addons.mozilla.org/firefox/addon/fwdl' 
+export AMO='https://addons.mozilla.org/firefox/addon/forward-download' 
 export IGN='*/fwdl.sh */fwdl.py */fwdl.json */fwdl.js'
 curl 'https://raw.githubusercontent.com/igorlogius/meta-addon-builder/main/README' | sh
