@@ -3,5 +3,5 @@
   "description": "",
   "path": "/home/???/.mozilla/native-messaging-hosts/fwdl.py",
   "type": "stdio",
-  "allowed_extensions": [ "forward-download@addons.mozilla.org" ]
+  "allowed_extensions": [ "fwdl@addons.mozilla.org" ]
 }
